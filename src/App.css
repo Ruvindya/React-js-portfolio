@@ -321,4 +321,21 @@ line-height: 27px;
 }
 /*Skills Section Style Ends*/
 
+/* about Us */
+.about--section {
+   display:grid;
+   padding: 133.px 85.9px;
+   align-items: center;
+   gap:60.6px;
+   grid-template-columns: repeat(2, 1fr);
+}
+.about--section--img >img {
+width: 65%;
+height: 60%;
+padding-left: 64px;
+}
+
+/* About Us Ends */
+
+/* My portfolio start */
 
