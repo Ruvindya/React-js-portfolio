@@ -1,0 +1,30 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript."
+        },
+        {
+            "id": 2,
+            "src": "./img/tag-1.png",
+            "title": "Back-End",
+            "description": "Experienced in server-side scripting and database management using technologies like Node.js, Python, and databases such as MySQL and MongoDB. Building robust and scalable backend systems for web applications"
+        },
+        {
+            "id": 3,
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "Focused on user-centered design principles to create products that delight and engage users."
+        },
+        {
+            "id": 4,
+            "src": "./img/feather-pen-1.png",
+            "title": "Webflow Development",
+            "description": "Utilizing Webflow's powerful tools to create custom websites with ease and precision, combining design and functionality seamlessly."
+        }
+    ]
+    
+    
+}
