@@ -24,7 +24,58 @@
             "title": "Webflow Development",
             "description": "Utilizing Webflow's powerful tools to create custom websites with ease and precision, combining design and functionality seamlessly."
         }
+    ],
+    "portfolio": [
+        {
+            "id": 1,
+            "src": "./img/placeholder-image.png",
+            "title": "Ahuse",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "Link": "View In Github"
+        },
+        {
+            "id": 2,
+            "src": "./img/placeholder-image-1.png",
+            "title": "App Dashboard",
+            "description": "Experienced in server-side scripting and database management using technologies like Node.js, Python, and databases such as MySQL and MongoDB. Building robust and scalable backend systems for web applications",
+            "Link": "View In Github"
+        },
+        {
+            "id": 3,
+            "src": "./img/placeholder-image-2.png",
+            "title": "Easy Rentn",
+            "description": "Focused on user-centered design principles to create products that delight and engage users.",
+            "Link": "View In Github"
+        }
+    ],
+    "testimonial": [
+        {
+            "id": 1,
+            "count":"5",
+            "src": "./img/avatar-image.png",
+            "title": "Ahuse",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "author_name":"Dianne Russel",
+            "author_description": "Starbucks"
+        },
+        {
+            "id": 2,
+            "count":"5",
+            "src": "./img/avatar-image-1.png",
+            "title": "Ahuse",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "author_name":"Pumudu Sanjana",
+            "author_description": "First Energy"
+        },
+        {
+            "id": 3,
+            "count":"5",
+            "src": "./img/avatar-image-2.png",
+            "title": "Ahuse",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "author_name":"Pasindu Kovinda",
+            "author_description": "McDonalds"
+        }
     ]
-    
     
 }
