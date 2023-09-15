@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import data from "../../data/index.json";
 
 export default function Myportfolio() {
@@ -42,7 +43,8 @@ export default function Myportfolio() {
                                 <p className="text-md">{item.description}</p>
                             </div>
                             <p className="text-sm portfolio--link">
-                            {item.link} 
+                           
+                            {item.Link} 
                                 <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -58,6 +60,7 @@ export default function Myportfolio() {
                                     stroke-linejoin="round"
                                 />
                                 </svg>
+                                
                             </p>
 
                         </div>

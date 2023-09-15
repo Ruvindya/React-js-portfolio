@@ -17,13 +17,8 @@
             "src": "./img/feather-pen-2.png",
             "title": "UI & UX Design",
             "description": "Focused on user-centered design principles to create products that delight and engage users."
-        },
-        {
-            "id": 4,
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "Utilizing Webflow's powerful tools to create custom websites with ease and precision, combining design and functionality seamlessly."
         }
+       
     ],
     "portfolio": [
         {
@@ -31,7 +26,7 @@
             "src": "./img/placeholder-image.png",
             "title": "Ahuse",
             "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
-            "Link": "View In Github"
+            "Link": "https://github.com/Ruvindya/Online-Odering-System"
         },
         {
             "id": 2,
@@ -48,34 +43,20 @@
             "Link": "View In Github"
         }
     ],
+    
     "testimonial": [
         {
             "id": 1,
             "count":"5",
             "src": "./img/avatar-image.png",
             "title": "Ahuse",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
-            "author_name":"Dianne Russel",
+            "description": "Customer Description",
+            "author_name":"Customer Name",
             "author_description": "Starbucks"
-        },
-        {
-            "id": 2,
-            "count":"5",
-            "src": "./img/avatar-image-1.png",
-            "title": "Ahuse",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
-            "author_name":"Pumudu Sanjana",
-            "author_description": "First Energy"
-        },
-        {
-            "id": 3,
-            "count":"5",
-            "src": "./img/avatar-image-2.png",
-            "title": "Ahuse",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
-            "author_name":"Pasindu Kovinda",
-            "author_description": "McDonalds"
         }
+        
+       
+        
     ]
     
 }

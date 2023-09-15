@@ -11,8 +11,7 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section-description">
-                    I'm a dedicated software engineering student looking for an internship in backend or full-stack development.<br/> I'm
-excited to learn and grow by getting hands-on experience. I enjoy working with others and believe in continuous learning through teamwork.
+                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.
                     </p>
                 </div>
                 <button className="btn btn-primary">Get In Touch</button>
