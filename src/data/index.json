@@ -24,23 +24,9 @@
         {
             "id": 1,
             "src": "./img/placeholder-image.png",
-            "title": "Ahuse",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "title": "Online Food Ordering System",
+            "description": "Crafting user-friendly web interfaces with HTML, CSS, and React Native.",
             "Link": "https://github.com/Ruvindya/Online-Odering-System"
-        },
-        {
-            "id": 2,
-            "src": "./img/placeholder-image-1.png",
-            "title": "App Dashboard",
-            "description": "Experienced in server-side scripting and database management using technologies like Node.js, Python, and databases such as MySQL and MongoDB. Building robust and scalable backend systems for web applications",
-            "Link": "View In Github"
-        },
-        {
-            "id": 3,
-            "src": "./img/placeholder-image-2.png",
-            "title": "Easy Rentn",
-            "description": "Focused on user-centered design principles to create products that delight and engage users.",
-            "Link": "View In Github"
         }
     ],
     

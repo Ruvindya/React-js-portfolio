@@ -27,9 +27,9 @@ export default function Myportfolio() {
                     </svg>
                     Visit My GitHub
                 </button>
-
                 </div>
             </div>
+
             <div className="portfolio--section--container">
                 {data?.portfolio?.map((item, index) => (
                     <div key={index}
@@ -43,8 +43,8 @@ export default function Myportfolio() {
                                 <p className="text-md">{item.description}</p>
                             </div>
                             <p className="text-sm portfolio--link">
-                           
-                            {item.Link} 
+                            <a href={item.Link} target="_blank" rel="noopener noreferrer">
+                            
                                 <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -60,7 +60,7 @@ export default function Myportfolio() {
                                     stroke-linejoin="round"
                                 />
                                 </svg>
-                                
+                                </a>
                             </p>
 
                         </div>
