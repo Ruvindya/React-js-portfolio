@@ -29,7 +29,6 @@ body {
    font-family: "Roboto";
    display: inline-block;
    padding: 14px 32px;
-   padding-right: 20px;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -48,6 +47,7 @@ body {
    -ms-transition: background-color 0.5s;
    -o-transition: background-color 0.5s;
  }
+ 
  .btn-outline-primary {
    color: var(--primary);
    background-color: var(--white);
@@ -58,6 +58,7 @@ body {
    background-color: var(--primary);
  }
  .btn-primary {
+    
    color: var(--white);
    background-color: var(--primary);
    border: 1px solid var(--primary);
@@ -66,15 +67,23 @@ body {
    color: var(--primary);
    background-color: var(--white);
  }
- .btn-secondry {
-  color: var(--white);
+
+
+
+a.button--link:link, a.button--link:visited {
   background-color: var(--github);
+  color: var(--white);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   border: 1px solid var(--github);
 }
-.btn-secondry:hover {
-  color: var(--github);
+a.button--link:hover, a.button--link:active {
   background-color: var(--white);
+  color: var(--github);
 }
+
  .btn-github {
    color: var(--white);
    background-color: var(--github);
@@ -250,6 +259,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     gap: 50px;
+    padding-top: 20px;
  }
  /* Hero Section Style Ends */
  

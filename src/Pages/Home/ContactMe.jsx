@@ -1,4 +1,28 @@
-export default function ContactMe() {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+const ContactMe = () => {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    // Show a confirmation dialog before sending the email
+    const confirmed = window.confirm('Are you sure you want to send this email?');
+
+    if (confirmed) {
+
+    emailjs.sendForm('service_saxyxqm', 'template_iuwk2kd', form.current, '7cTojrBg_3UVUzccU')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Email sent successfully");
+          form.current.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+    }
+  };
     return (
         <section id="Contact" className="contact--section">
             <div className="sub--title">
@@ -99,74 +123,55 @@ export default function ContactMe() {
             </li>
           </ul>
         </div>
-            <form className="contact--form--container">
+
+            <form className="contact--form--container" ref={form} onSubmit={sendEmail}>
                 <div className="container">
-                    <label htmlFor="first-name" className="contact--label">
-                        <span className="text-md">First Name</span>
+
+                    <label htmlFor="name" className="contact--label">
+                        <span className="text-md">Name</span>
                         <input type="text" 
                         className="contact--input text-md"
-                        name="first-name"
-                        id="first-name"
+                        name="user_name"
+                        id="name"
                         required
                         ></input>
                     </label>
-                    <label htmlFor="last-name" className="contact--label">
-                        <span className="text-md">Last Name</span>
-                        <input type="text" 
-                        className="contact--input text-md"
-                        name="last-name"
-                        id="last-name"
-                        required
-                        ></input>
-                    </label>
+
+                    
                     <label htmlFor="email" className="contact--label">
                         <span className="text-md">Email</span>
                         <input type="email" 
                         className="contact--input text-md"
-                        name="email"
+                        name="user_email"
                         id="email"
                         required
                         ></input>
                     </label>
-                    <label htmlFor="phone-number" className="contact--label">
-                        <span className="text-md">phone-number</span>
-                        <input type=" number" 
-                        className="contact--input text-md"
-                        name="phone-number"
-                        id="phone-number"
-                        required
-                        ></input>
-                    </label>
+
+                    
                 </div>
-                <label htmlFor="choose-topic" className="contact--label">
-                        <span className="text-md">Choose a topic</span>
-                        <select id="choose-topic" className="contact--input text-md">
-                            <option>Select One...</option>
-                            <option>Item 1</option>
-                            <option>Item 2</option>
-                            <option>Item 3</option>
-                        </select>
-                    </label>
+
+                
+
                     <label htmlFor="message" className="contact--label">
                         <span className="text-md">Message</span>
                         <textarea 
                         className="contact--input text-md"
+                        name="message"
                         rows=""
                         id="message"
                         placeholder="Type your message..." 
                         ></textarea>
                     </label>
-                    <label htmlFor="checkbox"
-                    className="checkbox--label">
-                        <input type="checkbox" required name="checkbox" id="checkbox" />
-                        <span className="text-sm"> I accept the terms</span>
-                    </label>
+                    
+                   
                     <div>
-                        <button className="btn btn-primary contact--form--btn">Submit</button>
+                    <input className="btn btn-primary contact--form--btn" type="submit" value="Send" />
                     </div>
 
             </form>
              
         </section>
     )
-}
+  }
+  export default ContactMe;

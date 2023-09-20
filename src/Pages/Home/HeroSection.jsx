@@ -11,14 +11,26 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section-description">
-                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.
+                        
+                        Java JS C++ HTML  CSS <br></br>
+                        
+                        MySQL Mongodb<br></br>
+                        NodeJs React Springboot
+                        
                     </p>
                 </div>
                 <div className="hero--section--btn--container">
-                    <button className="btn btn-primary">Get In Touch</button>
-                    <button className="btn btn-secondry">Print my Resume</button>
-                </div>
-                
+                   {/* 
+                   <button className="btn btn-primary">Get In Touch</button>       
+    */    }       
+                        <a
+                            className="btn button--link"
+                            href="./img/CV.pdf"
+                            download="Sachinthani W M R CV"
+                            >
+                            Download Resume
+                        </a>   
+                </div>               
             </div>
             <div className="hero--section--img">
                 <img src="./img/hero_img.png" alt="Hero Section"/>
