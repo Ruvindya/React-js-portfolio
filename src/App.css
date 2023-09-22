@@ -173,13 +173,21 @@ a.button--link:hover, a.button--link:active {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 15px 85.333px;
+   padding: 10px 70.333px;
+   padding-left: 20px;
    background: var(--white);
    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
+ }
+ .navbar--logo{
+    
+    justify-content: left;
+    align-items: left;
+    gap: 10px;
+   
  }
  .navbar--items > ul {
    list-style: none;
@@ -258,6 +266,7 @@ a.button--link:hover, a.button--link:active {
     flex-direction: row;
     -ms-flex-align: center;
     align-items: center;
+    justify-content: center;
     gap: 50px;
     padding-top: 20px;
  }
@@ -381,7 +390,7 @@ a.button--link:hover, a.button--link:active {
    align-items: center;
    justify-content: center;
    gap: 50.6px;
-   width: 100%;
+   width: 80%;
  }
  .portfolio--section--img {
    border-radius: 8px;
@@ -395,7 +404,9 @@ a.button--link:hover, a.button--link:active {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   width: 500px;
+   padding-left: 50px;
+   padding-right: 50px;
+   width: 300px;
    gap: 20px;
    flex: 1 0 0;
    background: #fff;
@@ -605,6 +616,7 @@ a.button--link:hover, a.button--link:active {
      font-size: 68px;
      line-height: 70px;
    }
+
    .skills--section--title {
      font-size: 28px;
      line-height: 40px;
