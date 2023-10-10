@@ -30,12 +30,13 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="mySkills"
                 className="text-md"
               >
-                Portfolio
+                Skills
               </Link>
             </li>
+           
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -56,10 +57,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="MyPortfolio"
                 className="text-md"
               >
-                Contact
+                Portfolio
               </Link>
             </li>
             <li>
@@ -69,12 +70,13 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="testimonial"
+                to="Contact"
                 className="text-md"
               >
-                Testimonials
+                Contact
               </Link>
             </li>
+           
           </ul>
         </div>
         <div className="footer--social--icon">

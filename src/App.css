@@ -202,7 +202,7 @@ a.button--link:hover, a.button--link:active {
  /* Navbar Content */
  .navbar--content {
    color: var(--darkblue);
-   font-size: 16px;
+   font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: 24px;
@@ -368,7 +368,7 @@ a.button--link:hover, a.button--link:active {
  /* My Portfolio Starts */
  .portfolio--section {
    display: flex;
-   padding: 50px 85px;
+   padding: 50px 60px;
    flex-direction: column;
    align-items: flex-start;
    gap: 40px;
@@ -381,17 +381,20 @@ a.button--link:hover, a.button--link:active {
  }
  .portfolio--container {
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    align-items: flex-start;
    gap: 21.3px;
  }
  .portfolio--section--container {
-   
-   align-items: center;
-   justify-content: center;
-   gap: 50.6px;
-   width: 80%;
+  display: grid;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:baseline;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1rem;
  }
+
  .portfolio--section--img {
    border-radius: 8px;
    width: 100%;

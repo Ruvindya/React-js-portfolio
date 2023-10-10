@@ -26,9 +26,9 @@ const ContactMe = () => {
     return (
         <section id="Contact" className="contact--section">
             <div className="sub--title">
-                <p className="sub--title">Get In Touch</p>
+                <h1 className="skills--section--heading">Get In Touch</h1>
                 <h2>Contact Me</h2>
-                <p className="text-lg">You can pt you message here</p>
+                <p className="text-lg">Place your message here</p>
             </div>
             <div className="footer--social--icon">
           <ul>

@@ -24,9 +24,30 @@
         {
             "id": 1,
             "src": "./img/placeholder-image.png",
-            "title": "Online Food Ordering System",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and React Native.",
+            "title": "Online Food Ordering System (Pet Project)",
+            "description": "Built a comprehensive full-stack web application for online ordering, utilizing React.js, Node.js, Express, and MongoDB database. Contributed to the creation of an efficient and intuitive online ordering platform, enhancing customer satisfaction and streamlining business operations.",
             "Link": "https://github.com/Ruvindya/Online-Odering-System"
+        },
+        {
+            "id": 2,
+            "src": "./img/placeholder-image.png",
+            "title": "Hostal Canteen food ordering web application (Database Project)",
+            "description": "Designed and developed a user-friendly online food ordering web application for Hostal Canteen, leveraging React, Node.js, Express.js, MySQL, and Sequelize",
+            "Link": "https://github.com/Ruvindya/hostelcanteenWbApplication"
+        },
+        {
+            "id": 3,
+            "src": "./img/placeholder-image.png",
+            "title": "Maintenance Mobile Application (Software Engineering Project)",
+            "description": "Collaborated with a 7-member team, including developers, UI designers, QA, and me as a business analyst. I played a pivotal role in requirement gathering, documentation, and presentations, highlighting my teamwork, project management, and communication skills within a multidisciplinary team.",
+            "Link": "https://github.com/nadunchanna98/Maintenance-App"
+        },
+        {
+            "id": 4,
+            "src": "./img/placeholder-image.png",
+            "title": "Developed accurate machine learning model that can classify subgroups of cervical cancer (Research Project)",
+            "description": "Developed a highly accurate machine learning model as part of a research project focused on the study of cervical cancer using multi-omic data. Collaborated closely with a research partner to classify subgroups of cervical cancer, contributing to advancements in cancer diagnosis and treatment.",
+            "Link": "https://github.com/Ruvindya/ResearchProject-PreProcessing"
         }
     ],
     
