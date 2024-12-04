@@ -12,10 +12,11 @@ export default function HeroSection() {
                     </h1>
                     <p className="hero--section-description">
                         
-                        Java JS C++ HTML  CSS <br></br>
+                        JavaScript | ReactJs | React Native | NodeJs <br></br>
+                        Tailwind CSS | HTML | CSS <br></br>
                         
-                        MySQL Mongodb<br></br>
-                        NodeJs React Springboot
+                        MySQL | Mongodb | ElasticSearch<br></br>
+                        Docker | Figma | Jira
                         
                     </p>
                 </div>
