@@ -1,4 +1,7 @@
 /* Global CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
    margin: 0;
@@ -227,7 +230,7 @@ a.button--link:hover, a.button--link:active {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   gap: 32px;
+   gap: 20px;
  }
  .hero--section--content {
    display: flex;
@@ -348,7 +351,7 @@ a.button--link:hover, a.button--link:active {
    display: grid;
    padding: 80.3px 85.3px;
    align-items: center;
-   gap: 114.6px;
+   gap: 114.6px; 
    grid-template-columns: repeat(2, 1fr);
 
  }
@@ -356,90 +359,157 @@ a.button--link:hover, a.button--link:active {
    display: flex;
    justify-content: center;
    align-items: center;
+   width:auto;
   
 }
  .about--section--img > img {
-   width: 55%;
-   height: 55%;
+   width: 50%;
+   height: 50%;
    
  }
  /* About Us Ends */
  
  /* My Portfolio Starts */
  .portfolio--section {
-   display: flex;
-   padding: 50px 60px;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
  }
  .portfolio--container-box {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%;
- }
- .portfolio--container {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   gap: 21.3px;
- }
- .portfolio--section--container {
-  display: grid;
-  flex-direction: row;
-  justify-content:space-between;
-  align-items:baseline;
-  width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 1rem;
- }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  padding-top: 50px;
+}
 
- .portfolio--section--img {
-   border-radius: 8px;
-   width: 100%;
-   height: 60%;
- }
- .portfolio--section--img > img {
-   width: 100%;
- }
- .portfolio--section--card {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding-left: 50px;
-   padding-right: 50px;
-   width: 300px;
-   gap: 20px;
-   flex: 1 0 0;
-   background: #fff;
-   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-   cursor: pointer;
-   border-top-left-radius: 12px;
-   border-top-right-radius: 12px;
- }
- .portfolio--section--card--content {
-   display: flex;
-   padding: 32px;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 32px;
-   align-self: stretch;
- }
- .portfolio--section--title {
-   color: var(--heading-color);
- }
- .portfolio--link {
-   text-decoration: none;
-   display: flex;
-   gap: 16px;
-   border-bottom: 1.33px solid var(--primary);
-   padding-bottom: 10.6px;
-   font-weight: 600;
- }
- .portfolio--section--card:hover path {
-   stroke: #006b6a;
- }
+.portfolio--container {
+  flex: 1;
+}
+
+.section--heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.btn-github {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #24292e;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-github:hover {
+  background-color: #2f363d;
+}
+
+.github--icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .portfolio--container-box {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+  }
+
+  .btn-github {
+      width: 100%;
+      justify-content: center;
+  }
+}
+
+ .portfolio--section--container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Space between cards */
+  width: 100%;
+  padding: 1rem;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.portfolio--section--card {
+  display: flex;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  min-height: 250px; /* Adjust based on your needs */
+}
+
+.portfolio--section--img {
+  width: 400px; /* Fixed width for image container */
+  max-width: 400px; /* Prevents image container from shrinking */
+  height: auto;
+  object-fit: cover;
+}
+
+.portfolio--section--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio--section--card--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.portfolio--section--title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 0.75rem;
+}
+
+.text-md {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.portfolio--link {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.portfolio--link svg {
+  transition: transform 0.2s ease;
+}
+
+.portfolio--link:hover svg {
+  transform: translateX(3px) translateY(-3px);
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .portfolio--section--card {
+      flex-direction: column;
+  }
+
+  .portfolio--section--img {
+      width: 100%;
+      height: 200px; /* Fixed height for mobile */
+  }
+
+  .portfolio--section--card--content {
+      padding: 1rem;
+  }
+}
  /* Portfolio Ends */
  
  /* Testimonial */

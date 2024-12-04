@@ -4,36 +4,36 @@
             "id": 1,
             "src": "./img/product-chain-1.png",
             "title": "Front-End",
-            "description": "Crafting user-friendly web interfaces with HTML, CSS, and JavaScript."
+            "description": "Crafting fully responsive user-friendly web interfaces with using React.js, Redux, and Tailwind CSS. Emphasized a consistent and user-friendly interface with reusable components and mobile-first design. Incorporated best practices in validation, error handling, and accessibility to deliver a seamless user experience."
         },
         {
             "id": 2,
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "Experienced in server-side scripting and database management using technologies like Node.js, Python, and databases such as MySQL and MongoDB. Building robust and scalable backend systems for web applications"
+            "description": "Proficient in developing robust and scalable backend systems using technologies like Node.js, Python (FastAPI), and .NET. Experienced in working with both SQL and NoSQL databases, including MySQL, MongoDB, and Elasticsearch, ensuring efficient data storage and retrieval. Skilled in Docker containerization for seamless application deployment, Jira for effective task management, and GitHub for version control. "
         },
         {
             "id": 3,
             "src": "./img/feather-pen-2.png",
             "title": "UI & UX Design",
-            "description": "Focused on user-centered design principles to create products that delight and engage users."
+            "description": "Focused on user-centered design principles to create products that delight and engage users. Familiar with Figma for UI/UX collaboration and designing user-friendly interfaces" 
         }
        
     ],
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/placeholder-image.png",
-            "title": "Online Food Ordering System (Pet Project)",
-            "description": "Built a comprehensive full-stack web application for online ordering, utilizing React.js, Node.js, Express, and MongoDB database. Contributed to the creation of an efficient and intuitive online ordering platform, enhancing customer satisfaction and streamlining business operations.",
-            "Link": "https://github.com/Ruvindya/Online-Odering-System"
+            "src": "./img/eCommerceWeb.png",
+            "title": "E-commerce web application ",
+            "description": "Developed a fully responsive e-commerce web application using React.js, Redux, and Tailwind CSS. Designed and implemented key features, including user authentication, a wishlist, dynamic filters (by name, category, price), and a persistent shopping cart using local storage. Emphasized a consistent and user-friendly interface with reusable components and mobile-first design. Efficiently managed state and routing with Redux and React Router, ensuring scalability and maintainability. Incorporated best practices in validation, error handling, and accessibility to deliver a seamless user experience. ",
+            "Link": "https://github.com/Ruvindya/E-Commerce-Web-Application.git"
         },
         {
             "id": 2,
             "src": "./img/placeholder-image.png",
-            "title": "Hostal Canteen food ordering web application (Database Project)",
-            "description": "Designed and developed a user-friendly online food ordering web application for Hostal Canteen, leveraging React, Node.js, Express.js, MySQL, and Sequelize",
-            "Link": "https://github.com/Ruvindya/hostelcanteenWbApplication"
+            "title": "PROMFITY (Internship Project)",
+            "description": "I worked on project called Promfity, engaging in backend development with Python, implementing end-to-end API calls, and managing databases using MongoDB, and Elasticsearch. I gained experience in query writing, indexing, and batch processing. On the frontend, I used React, Javascript and Next.js, applying best practices in HTML and Tailwind CSS. Additionally, I gained exposure to continuous integration and continuous deployment (CI/CD) pipelines, further improving the automation and efficiency of our development process. ",
+            "Link": ""
         },
         {
             "id": 3,
@@ -46,8 +46,23 @@
             "id": 4,
             "src": "./img/placeholder-image.png",
             "title": "Developed accurate machine learning model that can classify subgroups of cervical cancer (Research Project)",
-            "description": "Developed a highly accurate machine learning model as part of a research project focused on the study of cervical cancer using multi-omic data. Collaborated closely with a research partner to classify subgroups of cervical cancer, contributing to advancements in cancer diagnosis and treatment.",
+            "description": "As technologies, Google Colab, Pandas, Scikit-learn, Matplotlib have been used. Developed accurate machine learning model that can classify subgroups of multi-omics data (DNA methylation, Gene expression, miRNA) in cervical cancer. Undergraduate Research Project ",
             "Link": "https://github.com/Ruvindya/ResearchProject-PreProcessing"
+        },
+        
+        {
+            "id": 5,
+            "src": "./img/placeholder-image.png",
+            "title": "Online Food Ordering System (Pet Project)",
+            "description": "Built a comprehensive full-stack web application for online ordering, utilizing React.js, Node.js, Express, and MongoDB database. Contributed to the creation of an efficient and intuitive online ordering platform, enhancing customer satisfaction and streamlining business operations.",
+            "Link": "https://github.com/Ruvindya/Online-Odering-System"
+        },
+        {
+            "id": 6,
+            "src": "./img/placeholder-image.png",
+            "title": "Hostal Canteen food ordering web application (Database Project)",
+            "description": "Designed and developed a user-friendly online food ordering web application for Hostal Canteen, leveraging React, Node.js, Express.js, MySQL, and Sequelize",
+            "Link": "https://github.com/Ruvindya/hostelcanteenWbApplication"
         }
     ],
     
